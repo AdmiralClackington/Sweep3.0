@@ -132,7 +132,7 @@
     caps_layer {
     bindings = <
     &kp LS(Q)  &kp LS(W)    &kp LS(E)    &kp LS(R)    &kp LS(T) 			&kp LS(Y) &kp LS(U)   &kp LS(I)  &kp LS(O)  &kp LS(P)
-    &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp LS(G)  						&kp LS(H) &kp LS(J)  &kp LS(K) &kp LS(L) &kp LS(U)
+    &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp LS(G)  						&kp LS(H) &kp LS(J)  &kp LS(K) &kp LS(L) &kp LS(QUOT)
     &kp LS(Z) &kp LS(X) &kp LS(C) &kp LS(V) &kp LS(B)   				&kp LS(N) &kp LS(M)  &kp K_VOL_DN  &trans &trans
            &caps_word &trans  					&trans &trans
     >;
