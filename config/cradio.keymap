@@ -133,7 +133,7 @@
     bindings = <
     &to 1      &kp HOME     &kp UP       &kp END      &kp LS(T) 			    &kp KMLT   &kp NUM_7   &kp NUM_8     &kp NUM_9  &kp BKSP
     &kp LSHIFT &kp LEFT     &kp DOWN     &kp RIGHT    &kp END  					  &kp EQUAL  &kp NUM_4   &kp NUM_5     &kp NUM_6  &kp PLUS
-    &kp LC(Z)  &kp LC(X)    &kp LC(C)    &kp LC(V)    &kp LC(Y)   				&kp DOT    &kp NUM_1   &kp NUM_2     &kp NUM_3  &kp FLSH
+    &kp LC(Z)  &kp LC(X)    &kp LC(C)    &kp LC(V)    &kp LC(Y)   				&kp DOT    &kp NUM_1   &kp NUM_2     &kp NUM_3  &kp FSLH
                                          &kp RET      &kp BKSP  					&kp RET    &kp NUM_0
     >;
 		};
