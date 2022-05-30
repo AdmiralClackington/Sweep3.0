@@ -149,9 +149,9 @@
 
     colemak_layer {
     bindings = <
-    &kp Q      &kp W &kp F &kp P &kp B 						&kp Y   &kp U  &kp I    &kp O   &kp P
-    &kp A      &kp S &kp D &kp F &kp G 			      &kp H   &kp J  &kp K    &kp L   &kp QUOT
-    &sp 10 Z   &kp X &kp C &kp V &kp B				    &kp N   &kp M  &kp CMMA &kp DOT &mt RCTL DEL
+    &kp Q      &kp W &kp F &kp P &kp B 						&kp J   &kp L  &kp U    &kp Y   &kp QUOT
+    &kp A      &kp R &kp S &kp T &kp G 			      &kp M   &kp N  &kp E    &kp I   &kp O
+    &sp 10 Z   &kp X &kp C &kp D &kp V				    &kp K   &kp H  &kp CMMA &kp DOT &mt RCTL DEL
                      &mo 7 &kp BKSP  				      &kp SPC &mo 8
     >;
     };
@@ -179,16 +179,16 @@
     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp NUM_4  &kp NUM_5 		  	&to 0 &trans     &trans        &out OUT_USB     &out OUT_BLE
     &kp F1        &kp F2        &kp F3        &kp F4     &kp F5  			  	&trans &kp PG_UP  &kp K_VOL_UP  &kp K_MUTE &trans
     &bt BT_CLR    &bt BT_NXT    &bt BT_PRV    &kp F6     &kp F7   				&trans &kp PG_DN  &kp K_VOL_DN  &trans     &trans
-                                        &trans     &trans  					&trans &trans
+                                        &trans     &trans  					     &trans &trans
     >;
     };
 
     cmcaps_layer {
     bindings = <
-    &kp LS(Q)  &kp LS(W)    &kp LS(E)    &kp LS(R)    &kp LS(T) 			&kp LS(Y) &kp LS(U)   &kp LS(I)  &kp LS(O)  &kp LS(P)
-    &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp LS(G)  						&kp LS(H) &kp LS(J)  &kp LS(K) &kp LS(L) &kp LS(QUOT)
-    &kp LS(Z) &kp LS(X) &kp LS(C) &kp LS(V) &kp LS(B)   				&kp LS(N) &kp LS(M)  &kp K_VOL_DN  &trans &trans
-     &caps_word &trans  					&trans &trans
+    &kp LS(Q)  &kp LS(W)   &kp LS(F)    &kp LS(P)    &kp LS(B) 		    	&kp LS(J) &kp LS(L)   &kp LS(U)  &kp LS(Y)  &kp LS(QUOT)
+    &kp LS(A)  &kp LS(R)   &kp LS(S)    &kp LS(T)    &kp LS(G)  				&kp LS(M) &kp LS(N)  &kp LS(E) &kp LS(I) &kp LS(O)
+    &kp LS(Z)  &kp LS(X)   &kp LS(C)    &kp LS(D)    &kp LS(V)   				&kp LS(K) &kp LS(H)  &kp K_VOL_DN  &trans &trans
+                                   &caps_word &trans  				        	&trans &trans
     >;
     };
 
