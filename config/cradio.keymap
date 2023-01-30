@@ -115,14 +115,14 @@
 		bindings = <
 		&kp BANG  &kp ATSN   &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp AMPS  &kp KMLT  &kp LPRN  &kp RPRN
 		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			  &kp MINUS &kp EQUAL &kp LBRC  &kp RBRC  &kp BKSP
-		&kp LSFT  &kp KPLS   &kp LBKT  &kp RBKT  &kp BSLH    			&kp UNDER &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT
+		&kp LSFT  &kp CAPS   &kp LBKT  &kp RBKT  &kp BSLH    			&kp UNDER &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT
 					                         &mo 3     &kp LCTL  				&kp SPC   &mo 2
 		>;
 		};
 
 		tri_layer {
 		bindings = <
-		&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp NUM_4  &kp NUM_5 		  	&to 6  &trans     &trans        &out OUT_USB     &out OUT_BLE
+		&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp NUM_5 		  	&to 6  &trans     &trans        &out OUT_USB     &out OUT_BLE
 		&kp F1        &kp F2        &kp F3        &kp F4     &kp F5  			  	&trans &kp LG(LC(T))  &kp LG(LS(C))  &kp LG(LS(S)) &kp LG(LS(QUOT))
 		&bt BT_CLR    &bt BT_NXT    &bt BT_PRV    &kp F6     &kp F7   				&trans &kp LG(LS(A))  &kp LG(LS(O))  &kp LG(LS(Q))    &trans
 					                                    &trans     &trans  					&trans &trans
